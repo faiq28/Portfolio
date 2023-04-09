@@ -695,6 +695,14 @@ video {
   height: 100%;
 }
 
+.h-\[150px\] {
+  height: 150px;
+}
+
+.h-\[15px\] {
+  height: 15px;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -749,6 +757,10 @@ video {
 
 .w-\[200px\] {
   width: 200px;
+}
+
+.w-\[220px\] {
+  width: 220px;
 }
 
 .origin-top-left {
@@ -1396,6 +1408,11 @@ video {
   .md\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
 
   .md\:text-3xl {
