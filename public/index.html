@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -72,9 +72,9 @@
             </div> -->
             <div class="hidden flex-col gap-8 md:hidden px-3 py-3 rounded-sm items-center h-[900px] mt-16 text-8xl"
                 id="daftarMenu">
-                <a href="#" class="text-xl font-semibold  border-gray-400">Home</a>
-                <a href="#" class="text-xl font-semibold  border-gray-400">About</a>
-                <a href="#" class="text-xl font-semibold  border-gray-400">Contact</a>
+                <a href="#Home" class="text-xl font-semibold  border-gray-400">Home</a>
+                <a href="#About " class="text-xl font-semibold  border-gray-400">About</a>
+                <a href="#Contact" class="text-xl font-semibold  border-gray-400">Contact</a>
                 <!-- <a href="#" class="text-xl font-semibold  border-gray-400">Articles</a>
                 <a href="#" class="text-xl font-semibold  border-gray-400">Project</a> -->
             </div>
@@ -82,7 +82,7 @@
     </header>
 
     <main>
-        <section id="slider">
+        <section id="Home">
             <div class="w-screen h-[500px] mt-32 px-10 md:px-32 flex justify-between gap-2 flex-col md:flex-row">
                 <div class="w-full md:w-3/5 h-[600px] order-2 md:order-1">
                     <p class="text-2xl text-gray-400 font-semibold">NEWBIE</p>
@@ -184,9 +184,6 @@
                                 <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero modi
                                     recusandae
                                     sunt,
-                                    distinctio
-                                    alias qui animi dignissimos, quasi provident nesciunt temporibus impedit, saepe eius
-                                    nulla
                                     repudiandae ex adipisci autem! Aliquid!</p>
                             </div>
 
@@ -200,9 +197,6 @@
                                 <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero modi
                                     recusandae
                                     sunt,
-                                    distinctio
-                                    alias qui animi dignissimos, quasi provident nesciunt temporibus impedit, saepe eius
-                                    nulla
                                     repudiandae ex adipisci autem! Aliquid!</p>
                             </div>
 
@@ -216,9 +210,6 @@
                                 <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero modi
                                     recusandae
                                     sunt,
-                                    distinctio
-                                    alias qui animi dignissimos, quasi provident nesciunt temporibus impedit, saepe eius
-                                    nulla
                                     repudiandae ex adipisci autem! Aliquid!</p>
                             </div>
 
@@ -228,24 +219,24 @@
                     </div>
                     <div class="flex justify-evenly p-3 bg-blue-50 rounded-b-2xl items-center h-[200px]">
                         <div>
-                            <h1 class="flex md:justify-center font-semibold text-xl font-sans">Project Statistic 2022
+                            <h1 class="flex md:justify-center md:font-semibold text-base md:text-xl font-sans ">Project Statistic 2022
                             </h1>
                             <button
-                                class="py-3 px-8 bg-yellow-300 mt-2 font-bold hover:bg-white hover:text-black hover:ring hover:ring-yellow-400 transition duration-300 rounded-lg">Know
+                                class="py-2 px-4 min-[320]:py-3 min-[320]:px-8 bg-yellow-300 mt-2 font-medium min-[320]:font-bold hover:bg-white hover:text-black hover:ring hover:ring-yellow-400 transition duration-300 rounded-lg">Know
                                 More</button>
                         </div>
-                        <div class="font-semibold">
-                            <div class="flex justify-between gap-10 border-b-2 border-b-blue-400">
+                        <div class="min-[320]:font-semibold ">
+                            <div class="flex justify-between  border-b-2 border-b-blue-400">
                                 <h1 class="">Website Design</h1>
                                 <p>75</p>
                             </div>
 
-                            <div class="flex justify-between gap-10 border-b-2 border-b-blue-400">
+                            <div class="flex justify-between border-b-2 border-b-blue-400">
                                 <h1>Mobile App Design</h1>
                                 <p>64</p>
                             </div>
 
-                            <div class="flex justify-between gap-10 border-b-2 border-b-blue-400">
+                            <div class="flex justify-between border-b-2 border-b-blue-400">
                                 <h1>Brand Identity</h1>
                                 <p>37</p>
                             </div>
@@ -255,7 +246,7 @@
             </div>
         </section>
 
-        <section>
+        <!-- <section>
             <div class="w-screen mt-24 px-10 md:px-32">
                 <div class=" md:h-[700px] mt-60 md:mt-32 w-full rounded-xl">
                     <h1>My Abilities</h1>
@@ -281,21 +272,24 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
 
-        <div class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+        <div class="bg-white dark:bg-slate-700  px-6 py-8 ring-1 ring-slate-900/5 shadow-xl" id="Contact">
             <div>
-                <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
-                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                        aria-hidden="true"><!-- ... --></svg>
-                </span>
+                <div class="h-full flex flex-row">
+                    <ul class="p-4 md:p-6 m-auto">
+                        <li><a href="https://api.whatsapp.com/send?phone=6287111&text=Hello! I'm Faiq, a Web Developer and UI UX Designer" title="Work Together?" class="text-2xl flex gap-2 text-white"><i class="fab fa-whatsapp h-4 w-4"></i><p class="text-xl">WhatsApp</p></a> 
+                        </li>
+                        <li><a href="https://www.instagram.com/iqpiip_/" title="Follow My Instagram" class="text-2xl flex gap-2 text-white mt-5"><i class="fab fa-instagram h-4 w-4"></i><p class="text-xl">Instagram</p></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down</h3>
+            <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight"></h3>
             <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
-                The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in
-                outer space.
+                
             </p>
         </div>
 
