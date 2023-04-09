@@ -735,6 +735,22 @@ video {
   width: auto;
 }
 
+.w-\[320px\] {
+  width: 320px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
 .origin-top-left {
   transform-origin: top left;
 }
