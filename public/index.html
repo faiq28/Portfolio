@@ -111,7 +111,7 @@
                         class="flex flex-col gap-8 sm:gap-24 sm:flex-col md:flex-row justify-between mx-7 md:mx-0 mt-8 ">
 
                         <div class="flex justify-between flex-col">
-                            <div class="h-[182px] w-[364px] md:h-[200px] md:w-[350px] rounded-xl">
+                            <div class="h-[182px] w-auto md:h-[200px] md:w-[350px] rounded-xl">
                                 <img src="../assets/img/blog.png" alt=""
                                     class="w-full h-full md:hover:scale-110 duration-200">
                             </div>
@@ -123,7 +123,7 @@
 
 
                         <div class="flex justify-between flex-col ">
-                            <div class="h-[182px] w-[364px] md:h-[200px] md:w-[350px] bg-blue-200 rounded-xl"></div>
+                            <div class="h-[182px] w-auto md:h-[200px] md:w-[350px] bg-blue-200 rounded-xl"></div>
                             <div class="flex justify-between gap-12">
                                 <h1 class="font-semibold text-xl">Coming Soon</h1>
                                 <p class="font-thin">2023</p>
@@ -132,7 +132,7 @@
 
 
                         <div class="flex justify-between flex-col">
-                            <div class="h-[182px] w-[364px] md:h-[200px] md:w-[350px] bg-blue-200 rounded-xl"></div>
+                            <div class="h-[182px] w-auto md:h-[200px] md:w-[350px] bg-blue-200 rounded-xl"></div>
                             <div class="flex justify-between gap-12">
                                 <h1 class="font-semibold text-xl">Coming Soon</h1>
                                 <p class="font-thin">2023</p>
@@ -140,7 +140,7 @@
                         </div>
 
                         <div class="flex justify-between flex-col">
-                            <div class="h-[182px] w-[364px] md:h-[200px] md:w-[350px] bg-blue-200 rounded-xl"></div>
+                            <div class="h-[182px] w-auto md:h-[200px] md:w-[350px] bg-blue-200 rounded-xl"></div>
                             <div class="flex justify-between gap-12">
                                 <h1 class="font-semibold text-xl">Coming Soon</h1>
                                 <p class="font-thin">2023</p>
@@ -162,22 +162,13 @@
                     </div>
                 </div>
 
-                <div class="px-6  md:px-32 max-sm:w-screen">
+                <div class="px-6 md:px-32 max-sm:w-screen">
                     <div class="bg-blue-50 h-auto md:h-[300px] rounded-t-2xl">
                         <div
                             class="px-12 md:px-32 gap-8 flex flex-col md:flex-row max-md:w-screen md:justify-around md:ml-12 items-center justify-center">
                             <div class="md:mt-24 mt-40">
                                 <span
                                     class="inline-flex items-center justify-center p-2">
-                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <rect width="32" height="32" fill="url(#pattern0)"/>
-                                        <defs>
-                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                        <use xlink:href="#image0_15_6" transform="scale(0.03125)"/>
-                                        </pattern>
-                                        <image id="image0_15_6" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgEAYAAAAj6qa3AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQfnBAkGMB330E5IAAAEJklEQVRo3u2YbUyTVxTH/+d5yiDaliKRbglBUPmAZRWRJUbMFLMXdB80UUEYqRIUdXGwSDDGZCNdogsgMUSWIYYVK+oSGLqwLVtcBszh2IbhpTqyRCkfMBkUqE9pUCnt2RfabDLCm/Iw6e/bzTn33PP/5z4397mAHz+LGposwMzMTFS1cjimvXT1airwtIhb1Wq5G54ubBQ2uH90OPZ3q7ricu/dIyIiYp7SABPb+e7uuDhOIqt7W20tDFiG11atklvQrDFjCL/fv89f869C265dWcqQtNiyjg5vWJjg3BXa7+bLl//3wr2M6yCX0MLXqqufDvt2gPkvZ0ZHXljY2LdjZbSvr0/uvp8Xiu2Ko3xRqzW8rKxeW9Lfr/AG3FrXJc+ZJUsAkkSL3G3+B4W0ExcaG/kqP4LLYqEd+B7vjYzMtIwYOFZG+1wuANUoARQzLTBfUD7tQI/TCaMnkpvS0zP/1DSuPVdfj3hfigblsyj87r+HC9YAz3G4yJOfn3U05KK+pL6+MmyoqCMvNpbWC53C+dRU3EEZ3woImHHhs7SZGiRJFChFIVRU+M4AE9u5jSMj2USSaLFaZVOeQDn0+siIsktdJbwREuJocbQASqXwIbZ7uru7cZ17uCo4eM7rKOkAupqahDkXetYEoZk32GwpqSToakdHxSBP7phRp3tmwr20cQ5d2rRp4RlQCjtJ/7iwnMZvwhpRnHLeWxjEL62tbCMP1mRkoBxfIqq/f9L8aOj5tCguPANmCZ2AFabWVlWkWiPuranBE+olg8021bwXxgDeigRUHD7sFB3r3PqBAeRyLht1ukVjgA8HN2GnSjXd9BfPgBniN0DuBuTGb4DcDcjNojfA9zP00hWSRIskPSkAgMJCuRqiUO7m83Y7AA3087CeXEKni4ntbOEtW9hEElsaGiYkNMKKysFBvE038ZHZjBNswIPRUXxA6+jT0FAM8EU8yMz0Xn2fnq6ovCmFW/ampFA63+GT8fHT6uo5QqEAYLdntms0ev3UO5FLaCPV1dVlLQ9+9GrpsWMAcgAAeeMGvvLwWmdhYiKfgh6IiZlgACXwIU40m2EEgMBAuQ3g27SSDvX0oB2YzqdIRrzJP6enmyBlWsoDA3mYkzjt8WOsQA0diYjgU9jD2yYK9yJQOP2AFS6X3MJ9qPkIpwQFeYeeIiERXzmdk+bHsxnS0qX8OSdxmsGAGgDIzsYZ7OHPkpMnX4c24/rwsMDZ+IQqiotRiYfonPhuPu/8hINYrtWao4YG7+6OiFBFqZu7Rtva8AVsaLpxY871x3VyAE4ip7jYdwheeH/wm87k8PCA9WIiirRauX0Y66A/xI+t1gNngzfqaoeGCpiZWRAiioatFlV0tKj1LMMtpXKmdV233c043td38FzoO/rvenvl1unHj8z8DXwzniNMUVRHAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA0LTA5VDA2OjQ4OjI5KzAwOjAw1aFmiwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wNC0wOVQwNjo0ODoyOSswMDowMKT83jcAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjMtMDQtMDlUMDY6NDg6MjkrMDA6MDDz6f/oAAAAAElFTkSuQmCC"/>
-                                        </defs>
-                                        </svg>
                                 </span>
                                 <h1 class="font-semibold text-2xl">Responsive Web Design</h1>
                                 <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero modi

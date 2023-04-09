@@ -731,6 +731,10 @@ video {
   width: 100vw;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .origin-top-left {
   transform-origin: top left;
 }
