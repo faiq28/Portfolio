@@ -84,11 +84,11 @@
     <main>
         <section id="Home">
             <div class="w-screen h-[500px] mt-32 px-10 md:px-32 flex justify-between gap-2 flex-col md:flex-row">
-                <div class="w-full md:w-3/5 h-[600px] order-2 md:order-1">
+                <div class="w-full md:w-3/5 h-[600px] order-2 md:order-1 mt-0 md:mt-10">
                     <p class="text-2xl text-gray-400 font-semibold">NEWBIE</p>
                     <h1 class="text-3xl md:text-6xl font-semibold md:font-bold my-3 ">Hi, I'm Faiq</h1>
                     <h2 class="text-xl font-semibold md:text-3xl ">I am a Web Developer and UI UX Designer</h2>
-                    <p class="md:mt-5 text-lg w-full md:w-[75%] sm:hidden">
+                    <p class="md:mt-5 text-lg w-full md:w-[75%]">
                         My main goal is travelling the whole world while working
                         remotely! If you’d like to help/work with me, Let’s get in touch!</p>
                     <p class="md:mt-5 text-lg w-full md:w-[73%]"></p>
@@ -167,18 +167,9 @@
                         <div
                             class="px-12 md:px-32 gap-8 flex flex-col md:flex-row max-md:w-screen md:justify-around md:ml-12 items-center justify-center">
                             <div class="md:mt-24 mt-40">
-                                <span
-                                    class="inline-flex items-center justify-center p-2">
-                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <rect width="32" height="32" fill="url(#pattern0)"/>
-                                        <defs>
-                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                        <use xlink:href="#image0_15_6" transform="scale(0.03125)"/>
-                                        </pattern>
-                                        <image id="image0_15_6" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgEAYAAAAj6qa3AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQfnBAkGMB330E5IAAAEJklEQVRo3u2YbUyTVxTH/+d5yiDaliKRbglBUPmAZRWRJUbMFLMXdB80UUEYqRIUdXGwSDDGZCNdogsgMUSWIYYVK+oSGLqwLVtcBszh2IbhpTqyRCkfMBkUqE9pUCnt2RfabDLCm/Iw6e/bzTn33PP/5z4397mAHz+LGposwMzMTFS1cjimvXT1airwtIhb1Wq5G54ubBQ2uH90OPZ3q7ricu/dIyIiYp7SABPb+e7uuDhOIqt7W20tDFiG11atklvQrDFjCL/fv89f869C265dWcqQtNiyjg5vWJjg3BXa7+bLl//3wr2M6yCX0MLXqqufDvt2gPkvZ0ZHXljY2LdjZbSvr0/uvp8Xiu2Ko3xRqzW8rKxeW9Lfr/AG3FrXJc+ZJUsAkkSL3G3+B4W0ExcaG/kqP4LLYqEd+B7vjYzMtIwYOFZG+1wuANUoARQzLTBfUD7tQI/TCaMnkpvS0zP/1DSuPVdfj3hfigblsyj87r+HC9YAz3G4yJOfn3U05KK+pL6+MmyoqCMvNpbWC53C+dRU3EEZ3woImHHhs7SZGiRJFChFIVRU+M4AE9u5jSMj2USSaLFaZVOeQDn0+siIsktdJbwREuJocbQASqXwIbZ7uru7cZ17uCo4eM7rKOkAupqahDkXetYEoZk32GwpqSToakdHxSBP7phRp3tmwr20cQ5d2rRp4RlQCjtJ/7iwnMZvwhpRnHLeWxjEL62tbCMP1mRkoBxfIqq/f9L8aOj5tCguPANmCZ2AFabWVlWkWiPuranBE+olg8021bwXxgDeigRUHD7sFB3r3PqBAeRyLht1ukVjgA8HN2GnSjXd9BfPgBniN0DuBuTGb4DcDcjNojfA9zP00hWSRIskPSkAgMJCuRqiUO7m83Y7AA3087CeXEKni4ntbOEtW9hEElsaGiYkNMKKysFBvE038ZHZjBNswIPRUXxA6+jT0FAM8EU8yMz0Xn2fnq6ovCmFW/ampFA63+GT8fHT6uo5QqEAYLdntms0ev3UO5FLaCPV1dVlLQ9+9GrpsWMAcgAAeeMGvvLwWmdhYiKfgh6IiZlgACXwIU40m2EEgMBAuQ3g27SSDvX0oB2YzqdIRrzJP6enmyBlWsoDA3mYkzjt8WOsQA0diYjgU9jD2yYK9yJQOP2AFS6X3MJ9qPkIpwQFeYeeIiERXzmdk+bHsxnS0qX8OSdxmsGAGgDIzsYZ7OHPkpMnX4c24/rwsMDZ+IQqiotRiYfonPhuPu/8hINYrtWao4YG7+6OiFBFqZu7Rtva8AVsaLpxY871x3VyAE4ip7jYdwheeH/wm87k8PCA9WIiirRauX0Y66A/xI+t1gNngzfqaoeGCpiZWRAiioatFlV0tKj1LMMtpXKmdV233c043td38FzoO/rvenvl1unHj8z8DXwzniNMUVRHAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA0LTA5VDA2OjQ4OjI5KzAwOjAw1aFmiwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wNC0wOVQwNjo0ODoyOSswMDowMKT83jcAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjMtMDQtMDlUMDY6NDg6MjkrMDA6MDDz6f/oAAAAAElFTkSuQmCC"/>
-                                        </defs>
-                                        </svg>
-                                        
+                                <span class="inline-flex items-center justify-center p-2">
+                                    <img src="../assets/img/responsive (1).png" alt="">
+
                                 </span>
                                 <h1 class="font-semibold text-2xl">Responsive Web Design</h1>
                                 <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero modi
@@ -188,10 +179,8 @@
                             </div>
 
                             <div class="md:mt-24">
-                                <span
-                                    class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
-                                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24"
-                                        stroke="currentColor" aria-hidden="true"><!-- ... --></svg>
+                                <span class="inline-flex items-center justify-center p-2">
+                                    <img src="../assets/img/apps-add.png" alt="">
                                 </span>
                                 <h1 class="font-semibold text-2xl">Mobile App Design</h1>
                                 <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero modi
@@ -201,10 +190,8 @@
                             </div>
 
                             <div class="md:mt-24">
-                                <span
-                                    class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
-                                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24"
-                                        stroke="currentColor" aria-hidden="true"><!-- ... --></svg>
+                                <span class="inline-flex items-center justify-center p-2">
+                                    <img src="../assets/img/window-alt.png" alt="">
                                 </span>
                                 <h1 class="font-semibold text-2xl">Dashboard Design</h1>
                                 <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero modi
@@ -219,7 +206,8 @@
                     </div>
                     <div class="flex justify-evenly p-3 bg-blue-50 rounded-b-2xl items-center h-[200px]">
                         <div>
-                            <h1 class="flex md:justify-center md:font-semibold text-base md:text-xl font-sans ">Project Statistic 2022
+                            <h1 class="flex md:justify-center md:font-semibold text-base md:text-xl font-sans ">Project
+                                Statistic 2022
                             </h1>
                             <button
                                 class="py-2 px-4 min-[320]:py-3 min-[320]:px-8 bg-yellow-300 mt-2 font-medium min-[320]:font-bold hover:bg-white hover:text-black hover:ring hover:ring-yellow-400 transition duration-300 rounded-lg">Know
@@ -246,7 +234,16 @@
             </div>
         </section>
 
-        <!-- <section>
+        <!-- <div class="h-[200px] flex items-center justify-center flex-col">
+            <h1 class="font-semibold text-2xl flex">If you need the services of
+                creating or designing a website, you can contact me</h1>
+            <button class="py-3 px-8 bg-black text-white hover:bg-white hover:text-black hover:ring hover:ring-black transition duration-300 mt-3 rounded-lg">Here</button>
+        </div> -->
+
+        <section class="stroke" id="Benefit">
+            
+        </section>
+        <section>
             <div class="w-screen mt-24 px-10 md:px-32">
                 <div class=" md:h-[700px] mt-60 md:mt-32 w-full rounded-xl">
                     <h1>My Abilities</h1>
@@ -272,19 +269,26 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
 
 
         <div class="bg-gray-700  px-6 py-8" id="Contact">
-                <div class="h-full flex flex-row">
-                    <ul class="p-4 md:p-6 m-auto">
-                        <li><a href="https://api.whatsapp.com/send?phone=6281398022755&text=Hello! I'm Faiq, a Web Developer and UI UX Designer" title="Work Together?" class="text-2xl flex gap-2 text-white"><i class="fab fa-whatsapp h-4 w-4"></i><p class="text-xl">WhatsApp</p></a> 
-                        </li>
-                        <li><a href="https://www.instagram.com/iqpiip_/" title="Follow My Instagram" class="text-2xl flex gap-2 text-white mt-5"><i class="fab fa-instagram h-4 w-4"></i><p class="text-xl">Instagram</p></a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="h-full flex flex-row">
+                <ul class="p-4 md:p-6 m-auto">
+                    <li><a href="https://api.whatsapp.com/send?phone=6281398022755&text=Hello! I'm Faiq, a Web Developer and UI UX Designer"
+                            title="Work Together?" class="text-2xl flex gap-2 text-white"><i
+                                class="fab fa-whatsapp h-4 w-4"></i>
+                            <p class="text-xl">WhatsApp</p>
+                        </a>
+                    </li>
+                    <li><a href="https://www.instagram.com/iqpiip_/" title="Follow My Instagram"
+                            class="text-2xl flex gap-2 text-white mt-5"><i class="fab fa-instagram h-4 w-4"></i>
+                            <p class="text-xl">Instagram</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <aside class=" fixed right-0 bottom-1/2 max-md:hidden" id="aside">
@@ -334,9 +338,9 @@
                     ('hidden');
             }
         }
-            
-            // window.onscroll = function () { sosmed() };
-            // var xstatus = false;
+
+        // window.onscroll = function () { sosmed() };
+        // var xstatus = false;
 
         // function sosmed() {
         //     if (document.documentElement.scrollTop > 1800) {
